@@ -1,0 +1,54 @@
+# Adds the faded stock photos to a day's posts (copied from PaceShark's build-posts.yml).
+# The daily task pushes queue/<day>/content.json (with "photo" search words) plus its own photo-less build; this rebuilds
+# that day here, where Pexels can be reached, with the photo behind the first reel frame and the carousel cover, and commits
+# the new media. Uses the repo secret PEXELS_API_KEY if it is set; if not, tools/build.py asks our backend (which holds the key).
+# "Run workflow" by hand rebuilds one day.
+name: Add photos to posts
+on:
+  push:
+    branches: [main]
+    paths: ["queue/**/content.json"]
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Day to rebuild (YYYY-MM-DD)"
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: build-posts
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Install ffmpeg and Playwright
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          pip install playwright >/dev/null && playwright install --with-deps chromium >/dev/null
+      - name: Rebuild with photos
+        run: |
+          if [ -n "${{ github.event.inputs.day }}" ]; then list="queue/${{ github.event.inputs.day }}/content.json"
+          else list=$(git diff --name-only HEAD~1 HEAD -- 'queue/*/content.json' | tr '\n' ' '); fi
+          mkdir -p logs; : > logs/last-build.log
+          for f in $list; do
+            [ -f "$f" ] || continue
+            grep -q '"photo"' "$f" || { echo "$f has no photo words, skipped" >> logs/last-build.log; continue; }
+            echo "== $f" >> logs/last-build.log
+            python3 tools/build.py "$f" >> logs/last-build.log 2>&1 || echo "BUILD FAILED $f" >> logs/last-build.log
+          done
+      - name: Commit
+        run: |
+          git config user.name "lekker-hustle-posts-bot"
+          git config user.email "posts-bot@users.noreply.github.com"
+          git add queue logs tools/used-photos.json 2>/dev/null || git add queue logs
+          git diff --cached --quiet && { echo "Nothing changed"; exit 0; }
+          git commit -m "Add photos"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1
