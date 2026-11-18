@@ -1,0 +1,24 @@
+{
+ "reel1": {"photo": "woman shop owner counter", "frames": [
+  {"s": "Myth", "b": "You need a big budget", "h": "TO START", "u": "Here is what you need instead"},
+  {"s": "1", "b": "One thing people", "h": "will pay for"},
+  {"s": "2", "b": "A way to reach you", "h": "WhatsApp on"},
+  {"s": "3", "b": "Someone to tell", "h": "this week"},
+  {"s": "Start small", "b": "Free guides for", "h": "NEW OWNERS", "u": "Link in bio"}],
+  "caption": "Myth: you need a big budget to start a business.\n\nMost people start with three things: one thing people will pay for, a number they answer, and someone to tell about it this week. You can grow from there.\n\nFree guides for new business owners: link in bio.\n\n#smallbusinessSA #startupSA #entrepreneurSA #lekkerhustle"},
+ "reel2": {"photo": "hands writing notebook desk", "frames": [
+  {"s": "Mindset", "b": "Waiting until it is", "h": "PERFECT?"},
+  {"s": "Truth", "b": "Your first version will be rough", "h": "and that is fine"},
+  {"s": "Do this", "b": "Launch it, then fix it", "h": "from real feedback"},
+  {"s": "Save this", "b": "Send it to someone who keeps", "h": "WAITING", "u": "Follow for more tips"}],
+  "caption": "Waiting for everything to be perfect keeps a lot of good businesses from starting.\n\nLaunch the rough version, listen to your first customers, and improve from what they tell you.\n\nSave this and send it to someone who keeps waiting.\n\n#smallbusinessSA #entrepreneurSA #sidehustleSA #lekkerhustle"},
+ "carousel": {"photo": "small business owner smiling", "slides": [
+  {"kind": "cover", "small": "5 business myths", "big": "STOP", "hl": "BELIEVING", "sub": "Swipe."},
+  {"n": 1, "tag": "Myth", "title": "I need lots of money", "head": "Many people start small.", "body": "Begin with what you already have and spend only when you must."},
+  {"n": 2, "tag": "Myth", "title": "I need a perfect plan", "head": "A one page plan is enough to begin.", "body": "Who you help, what you offer, what it costs."},
+  {"n": 3, "tag": "Myth", "title": "Good work sells itself", "head": "People can only buy what they can find.", "body": "Tell people what you do and make it easy to contact you."},
+  {"n": 4, "tag": "Myth", "title": "Lower prices win customers", "head": "Price too low and you cannot keep going.", "body": "Work out your costs first, then price so you make something."},
+  {"n": 5, "tag": "Myth", "title": "I must do it all alone", "head": "Ask for advice early.", "body": "Other owners, suppliers and customers can all teach you something."},
+  {"kind": "cta", "small": "Free guides", "big": "Link in", "hl": "BIO", "sub": "Send this to a friend who is starting out."}],
+  "caption": "Five myths that keep people from starting, or from growing once they have started.\n\nSwipe through, save this, and send it to a friend who is starting out.\n\nFree guides: link in bio.\n\n#smallbusinessSA #entrepreneurSA #startupSA #lekkerhustle"}
+}
