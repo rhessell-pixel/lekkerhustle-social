@@ -76,9 +76,11 @@ def get_photo(photo):
         return f.read_bytes()
     try:
         import urllib.request, urllib.parse
-        data = json.loads(urllib.request.urlopen(f"{PEXELS_API}?q={urllib.parse.quote(q)}&per_page=5", timeout=20).read())
+        UA = {"User-Agent": "Mozilla/5.0 (LekkerHustle social builder)", "Accept": "application/json"}
+        req = urllib.request.Request(f"{PEXELS_API}?q={urllib.parse.quote(q)}&per_page=5", headers=UA)
+        data = json.loads(urllib.request.urlopen(req, timeout=20).read())
         src = (data.get("photos") or [{}])[0].get("src") or {}
-        img = urllib.request.urlopen(src.get("large") or src.get("landscape") or src.get("medium"), timeout=30).read()
+        img = urllib.request.urlopen(urllib.request.Request(src.get("large") or src.get("landscape") or src.get("medium"), headers=UA), timeout=30).read()
         f.write_bytes(img)
         return img
     except Exception as e:
