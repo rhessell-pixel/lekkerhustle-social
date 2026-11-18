@@ -36,5 +36,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "woman shop owner counter",
+      "photographer": "Anna Tarazevich",
+      "url": "https://www.pexels.com/photo/seller-and-customer-in-wooden-counter-7772169/"
+    },
+    {
+      "post": "reel2",
+      "query": "hands writing notebook desk",
+      "photographer": "cottonbro studio",
+      "url": "https://www.pexels.com/photo/man-holding-a-card-by-the-desk-in-a-classroom-5124853/"
+    },
+    {
+      "post": "carousel",
+      "query": "small business owner smiling",
+      "photographer": "Kampus Production",
+      "url": "https://www.pexels.com/photo/cheerful-ethnic-male-food-truck-waiter-standing-with-crossed-arms-5920774/"
+    }
   ]
 }
