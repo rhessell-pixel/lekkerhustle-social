@@ -26,6 +26,7 @@ jobs:
           mkdir -p logs
           : > logs/last-build.log
           for f in $files; do
+            [ -f "$f" ] || continue
             echo "== $f" >> logs/last-build.log
             python3 tools/build.py "$f" >> logs/last-build.log 2>&1 || echo "BUILD FAILED $f" >> logs/last-build.log
           done
