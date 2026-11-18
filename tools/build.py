@@ -19,10 +19,13 @@ content.json:
      {"kind": "cta", "small": "...", "big": "...", "hl": "...", "sub": "..."}], "caption": "..."}
 }
 4-6 frames per reel (about 3 s each), 5-8 carousel slides. One idea per frame or slide.
-"photo" (optional, on a post or a single frame/slide): a file in tools/photos/, or "pexels:search words"
-(fetched through our backend, which holds the Pexels key; cached in tools/photos/). It is shown faded behind the words.
+PHOTOS: add "photo": "2-4 search words" to reel1, reel2 and/or carousel. The FIRST reel frame and the carousel COVER then get a faded
+Pexels photo behind the text (other frames stay plain). With PEXELS_API_KEY in the environment it searches Pexels directly (portrait,
+one of the top 5 not used before); without it, it asks our backend, which holds the key. The photo is kept as photo-<post>.jpg next to
+content.json (rebuilds reuse it; delete it to get a new one). Used photo ids go in tools/used-photos.json so a picture never repeats.
+No photo found or any error: the post is built without a photo, the build never fails.
 """
-import json, sys, re, subprocess, shutil, base64
+import json, os, sys, re, subprocess, shutil, base64
 from pathlib import Path
 from html import escape
 from playwright.sync_api import sync_playwright
@@ -62,38 +65,54 @@ body{{font-family:DM,sans-serif;color:#fff;background:{BLACK}}}
 STRIPES = "".join(f'<i style="background:{c}"></i>' for c in (G, GOLD, RED, BLUE))
 
 
-def get_photo(photo):
-    """photo = a file in tools/photos/, or 'pexels:search words'. Returns bytes or None."""
-    if not photo:
+USED_FILE = HERE / "used-photos.json"
+try:
+    USED = json.loads(USED_FILE.read_text())
+except Exception:
+    USED = {}
+CREDITS = []
+UA = {"User-Agent": "Mozilla/5.0 (LekkerHustle social builder)", "Accept": "application/json"}
+
+
+def photo_for(day: Path, post: str, query, h: int):
+    """Photo bytes for a post (reel1, reel2, carousel) or None."""
+    if not query:
         return None
-    cache = HERE / "photos"; cache.mkdir(exist_ok=True)
-    if not photo.startswith("pexels:"):
-        f = cache / photo
-        return f.read_bytes() if f.exists() else None
-    q = photo[7:].strip()
-    f = cache / (re.sub(r"[^a-z0-9]+", "-", q.lower()).strip("-") + ".jpg")
-    if f.exists():
-        return f.read_bytes()
+    local = day / f"photo-{post}.jpg"
+    if local.exists():
+        return local.read_bytes()
+    import urllib.request, urllib.parse, random
     try:
-        import urllib.request, urllib.parse
-        UA = {"User-Agent": "Mozilla/5.0 (LekkerHustle social builder)", "Accept": "application/json"}
-        req = urllib.request.Request(f"{PEXELS_API}?q={urllib.parse.quote(q)}&per_page=5", headers=UA)
-        data = json.loads(urllib.request.urlopen(req, timeout=20).read())
-        src = (data.get("photos") or [{}])[0].get("src") or {}
-        img = urllib.request.urlopen(urllib.request.Request(src.get("large") or src.get("landscape") or src.get("medium"), headers=UA), timeout=30).read()
-        f.write_bytes(img)
+        key = os.environ.get("PEXELS_API_KEY", "").strip()
+        q = urllib.parse.quote(query)
+        if key:
+            req = urllib.request.Request(f"https://api.pexels.com/v1/search?query={q}&orientation=portrait&per_page=20", headers={**UA, "Authorization": key})
+            photos = json.loads(urllib.request.urlopen(req, timeout=20).read()).get("photos", [])
+            url_of = lambda p: p["src"]["original"] + f"?auto=compress&cs=tinysrgb&fit=crop&w=1080&h={h}"
+        else:
+            req = urllib.request.Request(f"{PEXELS_API}?q={q}&per_page=20", headers=UA)
+            photos = json.loads(urllib.request.urlopen(req, timeout=20).read()).get("photos", [])
+            url_of = lambda p: p["src"].get("large2x") or p["src"].get("large")
+        fresh = [p for p in photos if str(p.get("id")) not in USED][:5]
+        if not fresh:
+            print(f'Pexels: nothing new for "{query}"'); return None
+        p = random.choice(fresh)
+        img = urllib.request.urlopen(urllib.request.Request(url_of(p), headers=UA), timeout=40).read()
+        local.write_bytes(img)
+        USED[str(p["id"])] = {"day": day.name, "query": query, "url": p.get("url")}
+        CREDITS.append({"post": post, "query": query, "photographer": p.get("photographer"), "url": p.get("url")})
         return img
     except Exception as e:
-        print("no photo for", q, "-", e)
+        print(f'no photo for "{query}": {e}')
         return None
 
 
-def photo_layer(photo, strong):
-    img = get_photo(photo)
+def photo_layer(img):
+    """Faded photo: about 50% opacity, saturation down a little, darker top and bottom, lighter in the middle."""
     if not img:
         return ""
-    return (f'<div style="position:absolute;inset:0;background:url(data:image/jpeg;base64,{base64.b64encode(img).decode()}) center/cover;'
-            f'opacity:{.30 if strong else .20}"></div><div style="position:absolute;inset:0;background:linear-gradient(rgba(10,10,10,.35),rgba(10,10,10,.55))"></div>')
+    return (f'<div style="position:absolute;inset:0;background:url(data:image/jpeg;base64,{base64.b64encode(img).decode()}) center/cover;opacity:.5;filter:saturate(.85) contrast(1.05)"></div>'
+            '<div style="position:absolute;inset:0;background:linear-gradient(rgba(10,10,10,.78),rgba(10,10,10,.12) 38%,rgba(10,10,10,.12) 62%,rgba(10,10,10,.85))"></div>')
 
 
 def big_size(txt, tall):
@@ -104,7 +123,7 @@ def big_size(txt, tall):
 
 def wrap(w, h, inner, photo=None, strong=False, extra=""):
     return f"""<html><head><style>{CSS}</style></head><body><div class="slide" style="width:{w}px;height:{h}px">
-{photo_layer(photo, strong)}<div class="stripe" style="top:0">{STRIPES}</div><div class="stripe" style="bottom:0">{STRIPES}</div>
+{photo_layer(photo)}<div class="stripe" style="top:0">{STRIPES}</div><div class="stripe" style="bottom:0">{STRIPES}</div>
 <img class="logo" src="data:image/png;base64,{LOGO}">{inner}<div class="url">lekkerhustle.co.za</div>{extra}</div></body></html>"""
 
 
@@ -139,13 +158,13 @@ def shot(page, html, out, w, h):
 
 def frame_html(f, photo, idx, total):
     """A reel frame: s = small line, b = big words, h = highlight, u = line under. Last frame is the call to action."""
-    return cover_html(1080, 1920, f.get("s", ""), f.get("b", ""), f.get("h", ""), f.get("u", ""), f.get("photo") or photo)
+    return cover_html(1080, 1920, f.get("s", ""), f.get("b", ""), f.get("h", ""), f.get("u", ""), photo if idx == 1 else None)
 
 
 def slide_html(s, photo, idx, total):
     if s.get("kind") in ("cover", "cta"):
-        return cover_html(1080, 1350, s.get("small", ""), s.get("big", ""), s.get("hl", ""), s.get("sub", ""), s.get("photo") or photo)
-    return tip_html(1080, 1350, s, idx, total, s.get("photo") or photo)
+        return cover_html(1080, 1350, s.get("small", ""), s.get("big", ""), s.get("hl", ""), s.get("sub", ""), photo if idx == 0 else None)
+    return tip_html(1080, 1350, s, idx, total, None)
 
 
 def main(cfile: Path):
@@ -159,8 +178,9 @@ def main(cfile: Path):
         for n, key in ((1, "reel1"), (2, "reel2")):
             reel = c[key]; tmp = day / f"_frames{n}"; tmp.mkdir(exist_ok=True)
             fs = reel["frames"]
+            rphoto = photo_for(day, key, reel.get("photo"), 1920)
             for i, f in enumerate(fs, 1):
-                shot(page, frame_html(f, reel.get("photo"), i, len(fs)), tmp / f"f{i}.png", 1080, 1920)
+                shot(page, frame_html(f, rphoto, i, len(fs)), tmp / f"f{i}.png", 1080, 1920)
             sec = reel.get("seconds", 3)
             (tmp / "list.txt").write_text("".join(f"file 'f{i}.png'\nduration {sec}\n" for i in range(1, len(fs) + 1)) + f"file 'f{len(fs)}.png'\n")
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"),
@@ -168,14 +188,18 @@ def main(cfile: Path):
             shutil.rmtree(tmp)
             (day / f"post{n}.txt").write_text(reel["caption"].strip() + "\n")
         sl = c["carousel"]["slides"]
+        cphoto = photo_for(day, "carousel", c["carousel"].get("photo"), 1350)
         for i, s in enumerate(sl):
-            shot(page, slide_html(s, c["carousel"].get("photo"), i, len(sl)), day / f"post3-{i + 1:02d}.png", 1080, 1350)
+            shot(page, slide_html(s, cphoto, i, len(sl)), day / f"post3-{i + 1:02d}.png", 1080, 1350)
         (day / "post3.txt").write_text(c["carousel"]["caption"].strip() + "\n")
         b.close()
     plan = {"posts": [
         {"slot": 1, "time": "06:30", "type": "reel", "mode": "manual", "files": ["post1.mp4"], "caption": "post1.txt"},
         {"slot": 2, "time": "12:30", "type": "reel", "mode": "manual", "files": ["post2.mp4"], "caption": "post2.txt"},
         {"slot": 3, "time": "18:30", "type": "carousel", "mode": "manual", "files": [f"post3-{i + 1:02d}.png" for i in range(len(sl))], "caption": "post3.txt"}]}
+    if CREDITS:
+        plan["photos"] = CREDITS
+        USED_FILE.write_text(json.dumps(USED, indent=1) + "\n")
     (day / "plan.json").write_text(json.dumps(plan, indent=2) + "\n")
     print("built", day)
 

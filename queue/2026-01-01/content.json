@@ -1,0 +1,117 @@
+{
+ "reel1": {
+  "frames": [
+   {
+    "s": "Thinking of going full time?",
+    "b": "Check this",
+    "h": "BEFORE YOU QUIT",
+    "u": "4 questions to ask first"
+   },
+   {
+    "s": "1",
+    "b": "Do you turn down work",
+    "h": "because you are too busy?"
+   },
+   {
+    "s": "2",
+    "b": "Do customers come back",
+    "h": "or send others?"
+   },
+   {
+    "s": "3",
+    "b": "Have you earned steady income",
+    "h": "for several months?"
+   },
+   {
+    "s": "4",
+    "b": "Do you have savings for",
+    "h": "the slow months?"
+   },
+   {
+    "s": "Free guide",
+    "b": "When to go",
+    "h": "FULL TIME",
+    "u": "Link in bio"
+   }
+  ],
+  "caption": "Thinking of leaving your job for your side hustle? Ask yourself these first.\n\nDo you turn down work because you are too busy? Do customers come back or refer others? Have you earned steady income for several months? Do you have savings for the slow months?\n\nFull guide: link in bio.\n\n#smallbusinessSA #sidehustleSA #entrepreneurSA #lekkerhustle",
+  "photo": "busy barber shop"
+ },
+ "reel2": {
+  "frames": [
+   {
+    "s": "Quote went quiet?",
+    "b": "Do this",
+    "h": "ONE THING"
+   },
+   {
+    "s": "Follow up once",
+    "b": "A friendly message after a few days",
+    "h": "wins jobs"
+   },
+   {
+    "s": "Save this",
+    "b": "Send it to a",
+    "h": "BUSINESS OWNER",
+    "u": "Link in bio for free guides"
+   }
+  ],
+  "caption": "One friendly follow-up after a few days is often all it takes to win the job.\n\nSave this and send it to a business owner you know.\n\n#smallbusinessSA #entrepreneurSA #lekkerhustle",
+  "photo": "man on phone at desk"
+ },
+ "carousel": {
+  "slides": [
+   {
+    "kind": "cover",
+    "small": "Getting your first customers?",
+    "big": "Start",
+    "hl": "HERE",
+    "sub": "6 steps. Swipe."
+   },
+   {
+    "n": 1,
+    "tag": "Step",
+    "title": "Tell people you know",
+    "head": "Say what you do in one sentence.",
+    "body": "\"I fix leaking geysers and taps in Paarl\" beats \"I do plumbing\"."
+   },
+   {
+    "n": 2,
+    "tag": "Step",
+    "title": "Make one clear offer",
+    "head": "Pick the one or two things you do best.",
+    "body": "Say what they get and roughly what it costs."
+   },
+   {
+    "n": 3,
+    "tag": "Step",
+    "title": "Be easy to contact",
+    "head": "One number you answer, WhatsApp on.",
+    "body": "Use the same name and town everywhere."
+   },
+   {
+    "n": 4,
+    "tag": "Step",
+    "title": "Show proof",
+    "head": "Photos of finished jobs.",
+    "body": "With permission, keep short comments from happy customers."
+   },
+   {
+    "n": 5,
+    "tag": "Step",
+    "title": "Follow up once",
+    "head": "If a quote goes quiet, send one friendly message.",
+    "body": "Many jobs are won this way."
+   },
+   {
+    "kind": "cta",
+    "small": "Free guide",
+    "big": "Link in",
+    "hl": "BIO",
+    "sub": "Send this to a friend who is starting out."
+   }
+  ],
+  "caption": "Most first customers do not come from adverts. They come from people who know what you do and can find you easily.\n\nSwipe for 5 simple steps. Save this and send it to a friend who is starting out.\n\nFull guide: link in bio.\n\n#smallbusinessSA #startupSA #entrepreneurSA #lekkerhustle",
+  "photo": "woman working on laptop at counter"
+ }
+}

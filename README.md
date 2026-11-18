@@ -43,3 +43,11 @@ Push the batch before 17:30 SA time so the 18:00 email can include it. `sample/`
 Audience: South African small business owners and side hustlers. Topics: how to build a business, entrepreneur tips,
 getting customers, pricing, money habits, side hustles, using a website to be found. Only real, checkable facts; never invent
 clients, quotes, results or statistics; no emojis on slides; do not advertise features Lekker Hustle has not built.
+
+## Photos
+
+Add `"photo": "2-4 search words"` to `reel1`, `reel2` and `carousel` in content.json (specific and visual, e.g. "busy barber shop").
+The first reel frame and the carousel cover get a faded Pexels photo; other frames stay plain. The GitHub workflow
+`.github/workflows/build-posts.yml` adds them after each push (Actions > "Add photos to posts" > Run workflow to redo a day).
+It uses the repo secret `PEXELS_API_KEY` if set, otherwise the builder asks the Lekker Hustle backend. A picture never repeats
+(`tools/used-photos.json`); delete `queue/<day>/photo-<post>.jpg` and rerun to get a different one.
