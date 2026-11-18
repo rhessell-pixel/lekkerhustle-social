@@ -1,0 +1,21 @@
+== queue/2026-01-01/content.json
+no photo for person working on laptop at desk - HTTP Error 403: Forbidden
+no photo for person working on laptop at desk - HTTP Error 403: Forbidden
+no photo for person working on laptop at desk - HTTP Error 403: Forbidden
+no photo for person working on laptop at desk - HTTP Error 403: Forbidden
+no photo for person working on laptop at desk - HTTP Error 403: Forbidden
+no photo for person working on laptop at desk - HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "/home/runner/work/lekkerhustle-social/lekkerhustle-social/tools/build.py", line 182, in <module>
+    main(Path(sys.argv[1]))
+  File "/home/runner/work/lekkerhustle-social/lekkerhustle-social/tools/build.py", line 164, in main
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"),
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'
+BUILD FAILED queue/2026-01-01/content.json
