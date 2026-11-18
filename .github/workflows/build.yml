@@ -1,0 +1,32 @@
+# Rebuilds a day's posts WITH the faded photos whenever its content.json is pushed.
+# (The scheduled task's own session cannot reach the internet for photos; GitHub's runners can.)
+name: Build posts with photos
+on:
+  push:
+    branches: [main]
+    paths: ['queue/**/content.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Install Playwright
+        run: pip install playwright && playwright install --with-deps chromium
+      - name: Build changed days
+        run: |
+          files=$(git diff --name-only HEAD~1 HEAD -- 'queue/**/content.json' || true)
+          for f in $files; do
+            [ -f "$f" ] && python3 tools/build.py "$f"
+          done
+      - name: Commit the rebuilt media
+        run: |
+          git config user.name "lekker-hustle-bot"
+          git config user.email "noreply@lekkerhustle.co.za"
+          git add queue
+          git diff --cached --quiet || (git commit -m "Rebuild posts with photos" && git push)
