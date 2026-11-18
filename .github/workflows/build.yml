@@ -21,12 +21,15 @@ jobs:
       - name: Build changed days
         run: |
           files=$(git diff --name-only HEAD~1 HEAD -- 'queue/**/content.json' || true)
+          mkdir -p logs
+          : > logs/last-build.log
           for f in $files; do
-            [ -f "$f" ] && python3 tools/build.py "$f"
+            echo "== $f" >> logs/last-build.log
+            python3 tools/build.py "$f" >> logs/last-build.log 2>&1 || echo "BUILD FAILED $f" >> logs/last-build.log
           done
       - name: Commit the rebuilt media
         run: |
           git config user.name "lekker-hustle-bot"
           git config user.email "noreply@lekkerhustle.co.za"
-          git add queue
+          git add queue logs
           git diff --cached --quiet || (git commit -m "Rebuild posts with photos" && git push)
