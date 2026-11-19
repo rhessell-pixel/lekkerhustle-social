@@ -1,0 +1,25 @@
+{
+ "reel1": {"photo": "calculator invoice small business", "frames": [
+  {"s": "Unpaid invoice?", "b": "Chase it", "h": "POLITELY", "u": "3 steps"},
+  {"s": "1", "b": "Send a friendly reminder", "h": "the day after it is due"},
+  {"s": "2", "b": "Include the amount,", "h": "invoice number and how to pay"},
+  {"s": "3", "b": "Pick up the phone", "h": "if it goes quiet"},
+  {"s": "Save this", "b": "Send it to an owner who", "h": "GETS PAID LATE", "u": "Free guides: link in bio"}],
+  "caption": "Waiting on a customer to pay? A polite, clear reminder gets more done than silence.\n\nSend a friendly message the day after it is due, include the amount, invoice number and how to pay, and phone if it goes quiet.\n\nSave this and send it to an owner who gets paid late.\n\n#smallbusinessSA #entrepreneurSA #moneytips #lekkerhustle"},
+ "reel2": {"photo": "friday weekend market stall", "frames": [
+  {"s": "Friday check", "b": "5 minutes before", "h": "THE WEEKEND"},
+  {"s": "1", "b": "Reply to every", "h": "open enquiry"},
+  {"s": "2", "b": "Follow up", "h": "every quote you sent"},
+  {"s": "3", "b": "Write down next week's", "h": "TOP 3 JOBS"},
+  {"s": "Follow", "b": "More simple tips for", "h": "BUSINESS OWNERS", "u": "Free guides: link in bio"}],
+  "caption": "Five minutes on a Friday can save you a quiet week.\n\nReply to open enquiries, follow up your quotes, and write down your top three jobs for next week.\n\nFollow for more simple tips for business owners.\n\n#smallbusinessSA #sidehustleSA #entrepreneurSA #lekkerhustle"},
+ "carousel": {"photo": "cape town small business owner", "slides": [
+  {"kind": "cover", "small": "Keep more of what you earn", "big": "SIMPLE", "hl": "MONEY HABITS", "sub": "5 habits. Swipe."},
+  {"n": 1, "tag": "Habit", "title": "Separate your money", "head": "Keep business and personal money apart.", "body": "It makes your real income easy to see."},
+  {"n": 2, "tag": "Habit", "title": "Know your costs", "head": "Write down what each job really costs you.", "body": "Include fuel, materials and your own time."},
+  {"n": 3, "tag": "Habit", "title": "Put some aside", "head": "Set aside a part of every payment.", "body": "Slow months are easier when you have a buffer."},
+  {"n": 4, "tag": "Habit", "title": "Invoice quickly", "head": "Send the invoice as soon as the job is done.", "body": "The sooner it goes out, the sooner it gets paid."},
+  {"n": 5, "tag": "Habit", "title": "Check every week", "head": "Look at what came in and went out.", "body": "Ten minutes a week beats a stressful month end."},
+  {"kind": "cta", "small": "Free guides", "big": "Link in", "hl": "BIO", "sub": "Send this to a friend who runs a business."}],
+  "caption": "Good money habits do not need fancy software. They need a few simple routines.\n\nSwipe for five habits, save this, and send it to a friend who runs a business.\n\nFree guides: link in bio.\n\n#smallbusinessSA #moneytips #entrepreneurSA #lekkerhustle"}
+}
