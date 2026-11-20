@@ -36,5 +36,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "friends talking coffee shop",
+      "photographer": "Vitaly Gariev",
+      "url": "https://www.pexels.com/photo/smiling-woman-enjoying-coffee-in-outdoor-cafe-36765293/"
+    },
+    {
+      "post": "reel2",
+      "query": "worried woman reading phone",
+      "photographer": "Alex Green",
+      "url": "https://www.pexels.com/photo/sad-young-ethnic-lady-arguing-during-video-call-5699825/"
+    },
+    {
+      "post": "carousel",
+      "query": "baking cupcakes kitchen",
+      "photographer": "Gustavo Fring",
+      "url": "https://www.pexels.com/photo/woman-in-red-long-sleeve-shirt-and-white-apron-icing-cookies-3983710/"
+    }
   ]
 }
