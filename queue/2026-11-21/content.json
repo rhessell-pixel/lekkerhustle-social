@@ -1,0 +1,27 @@
+{
+ "reel1": {"photo": "friends talking coffee shop", "frames": [
+  {"s": "Side hustle idea?", "b": "Test it in", "h": "ONE WEEK", "u": "Before you spend a cent"},
+  {"s": "1", "b": "Write one line:", "h": "who you help and with what"},
+  {"s": "2", "b": "Tell ten people and ask", "h": "for one paying customer"},
+  {"s": "3", "b": "Do the first job, then ask", "h": "for honest feedback"},
+  {"s": "4", "b": "Write down your real", "h": "COSTS AND TIME"},
+  {"s": "Got an idea?", "b": "Comment it", "h": "BELOW"}],
+  "caption": "Got a side hustle idea? Do not buy anything yet. Test it in one week.\n\nWrite one line on who you help and with what, tell ten people, do the first job at a fair price, then ask for honest feedback and note your real costs and time.\n\nComment your side hustle idea below.\n\n#sidehustleSA #smallbusinessSA #startupSA #lekkerhustle"},
+ "reel2": {"photo": "worried woman reading phone", "frames": [
+  {"s": "Side hustle scam check", "b": "If you see this,", "h": "WALK AWAY"},
+  {"s": "Red flag 1", "b": "They ask you to", "h": "PAY TO START EARNING"},
+  {"s": "Red flag 2", "b": "Big income promised for", "h": "LITTLE WORK"},
+  {"s": "Red flag 3", "b": "It only works if you", "h": "RECRUIT OTHERS"},
+  {"s": "Rule of thumb", "b": "Too good to be true?", "h": "IT USUALLY IS"},
+  {"s": "Send this", "b": "To a friend who is", "h": "STARTING OUT", "u": "Stay safe, hustle smart"}],
+  "caption": "Not every side hustle offer is real. Three red flags to check before you hand over any money.\n\nBe wary if you must pay to start earning, if big income is promised for little work, or if it only works when you recruit other people. If it sounds too good to be true, it usually is.\n\nSend this to a friend who is starting out.\n\n#sidehustleSA #entrepreneurSA #smallbusinessSA #lekkerhustle"},
+ "carousel": {"photo": "baking cupcakes kitchen", "slides": [
+  {"kind": "cover", "small": "Little money needed", "big": "5 SIDE HUSTLES", "hl": "TO START", "sub": "What to start with and what to watch. Swipe."},
+  {"n": 1, "tag": "Side hustle", "title": "Cleaning", "head": "Homes, offices and holiday lets.", "body": "Start with supplies you already have. Watch out for reliability, safety, insurance and clear pricing."},
+  {"n": 2, "tag": "Side hustle", "title": "Admin help", "head": "Bookkeeping and admin for busy owners.", "body": "All you need is a laptop and good organisation. Protect your clients' private data."},
+  {"n": 3, "tag": "Side hustle", "title": "Baking", "head": "Take orders by WhatsApp.", "body": "Start with a few tested recipes. Check food-handling rules with your municipality."},
+  {"n": 4, "tag": "Side hustle", "title": "Pet care", "head": "Dog walking and pet sitting.", "body": "It runs on time and trust. Agree the details clearly and keep good records."},
+  {"n": 5, "tag": "Side hustle", "title": "Photography", "head": "Phone or basic camera and a portfolio.", "body": "Get permission, use a simple contract and store client files safely."},
+  {"kind": "cta", "small": "Pick one and test it", "big": "SAVE", "hl": "THIS POST", "sub": "Start with a skill you already have."}],
+  "caption": "You do not need a big budget to start a side hustle. You need a skill people pay for and a way to test it.\n\nFive ideas to start with, plus what to watch out for with each one. Swipe through.\n\nSave this for when you are ready to start.\n\n#sidehustleSA #startupSA #smallbusinessSA #entrepreneurSA"}
+}
