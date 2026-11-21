@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "neighbours chatting garden fence",
+      "photographer": "Ketut Subiyanto",
+      "url": "https://www.pexels.com/photo/two-men-sitting-with-a-newspaper-4658119/"
+    },
+    {
+      "post": "reel2",
+      "query": "woman typing smartphone desk",
+      "photographer": "Porapak Apichodilok",
+      "url": "https://www.pexels.com/photo/woman-sitting-on-chair-beside-table-while-using-phone-363766/"
+    },
+    {
+      "post": "carousel",
+      "query": "sticky notes planning wall",
+      "photographer": "DS stories",
+      "url": "https://www.pexels.com/photo/sticky-notes-posted-on-wall-6991363/"
+    }
   ]
 }
