@@ -1,0 +1,26 @@
+{
+ "reel1": {"photo": "neighbours chatting garden fence", "frames": [
+  {"s": "Facebook groups", "b": "Posted an advert and got", "h": "IGNORED?", "u": "Here is why"},
+  {"s": "1", "b": "Read the group rules", "h": "BEFORE YOU POST"},
+  {"s": "2", "b": "Help people for a week or two", "h": "BEFORE YOU SELL"},
+  {"s": "3", "b": "Reply within the hour, then", "h": "MOVE TO WHATSAPP"},
+  {"s": "Community question", "b": "Which group gets you", "h": "CUSTOMERS?", "u": "Comment your question below"}],
+  "caption": "Posted your advert in a Facebook group and got ignored? Try this instead.\n\nRead the rules first, answer people's questions for a week or two, then post a clear offer where it is allowed. Reply fast and take prices and details to WhatsApp.\n\nComment your question below and let us help.\n\n#smallbusinessSA #entrepreneurSA #startupSA #lekkerhustle"},
+ "reel2": {"photo": "woman typing smartphone desk", "frames": [
+  {"s": "Customer asks: how much?", "b": "Never reply", "h": "IT DEPENDS"},
+  {"s": "1", "b": "Give a price or a range:", "h": "FROM R___"},
+  {"s": "2", "b": "Ask one or two questions", "h": "TO QUOTE ACCURATELY"},
+  {"s": "3", "b": "End with an easy next step:", "h": "A DAY AND TIME"},
+  {"s": "Send this", "b": "To a friend who is", "h": "STARTING OUT", "u": "A number keeps the customer talking"}],
+  "caption": "A customer asks how much it is. Do not say it depends and leave it there.\n\nGive a price or a range, say what it includes, ask one or two questions to make the quote accurate, then offer a day and time. Customers move on when they cannot get a number.\n\nSend this to a friend who is starting out.\n\n#smallbusinessSA #entrepreneurSA #sidehustleSA #lekkerhustle"},
+ "carousel": {"photo": "sticky notes planning wall", "slides": [
+  {"kind": "cover", "small": "No 40 pages needed", "big": "YOUR BUSINESS PLAN", "hl": "ON ONE PAGE", "sub": "Six things to decide on purpose. Swipe."},
+  {"n": 1, "tag": "One-page plan", "title": "The offer", "head": "I help ___ with ___ in ___.", "body": "Be specific. Everyone is not a customer. Picture one real person who pays you."},
+  {"n": 2, "tag": "One-page plan", "title": "Why me", "head": "Pick one or two reasons.", "body": "Speed, price upfront, a specialty. Make sure it is true and customers can see it."},
+  {"n": 3, "tag": "One-page plan", "title": "Prices", "head": "Write your main prices down.", "body": "Add your deposit and payment terms so you never have to guess."},
+  {"n": 4, "tag": "One-page plan", "title": "Customers", "head": "Choose three ways, not twelve.", "body": "Referrals, WhatsApp and local groups work well. Write what you will do each week."},
+  {"n": 5, "tag": "One-page plan", "title": "The numbers", "head": "Fixed costs plus the pay you want.", "body": "Divide by profit per sale to see how many sales you need each month."},
+  {"n": 6, "tag": "One-page plan", "title": "Next 90 days", "head": "Three goals you can measure.", "body": "Get 8 paying customers beats be successful. Add one first action for each."},
+  {"kind": "cta", "small": "Free step-by-step guide", "big": "LINK IN", "hl": "BIO", "sub": "Includes a fill-in template."}],
+  "caption": "You do not need a 40 page business plan. You need one page you will actually use.\n\nSix things to decide on purpose: your offer, why customers pick you, your prices, how you get customers, your numbers and your next 90 days. Swipe through.\n\nLink in bio for the free guide with a fill-in template.\n\n#startupSA #smallbusinessSA #entrepreneurSA #lekkerhustle"}
+}
