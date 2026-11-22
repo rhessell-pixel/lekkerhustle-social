@@ -1,0 +1,25 @@
+{
+ "reel1": {"photo": "friends chatting market stall", "frames": [
+  {"s": "Starting a business", "b": "\"Great idea!\" is not", "h": "A CUSTOMER", "u": "Compliments are free"},
+  {"s": "Weak signal", "b": "They like your post", "h": "OR SAY NICE"},
+  {"s": "Strong signal", "b": "They ask", "h": "HOW MUCH?"},
+  {"s": "Strongest signal", "b": "They pay a deposit or", "h": "BOOK A DATE"},
+  {"s": "Send this", "b": "To a friend who is", "h": "STARTING OUT", "u": "Test with a real offer, not a survey"}],
+  "caption": "\"Great idea!\" is not a customer. Compliments are free, so they prove very little.\n\nThe real signals: someone asks how much, someone books a date, someone pays a deposit. Make a small, real offer and see who says yes.\n\nSend this to a friend who is starting out.\n\n#smallbusinessSA #entrepreneurSA #startupSA #lekkerhustle"},
+ "reel2": {"photo": "calculator notebook pen desk", "frames": [
+  {"s": "Before you launch", "b": "Do the maths on", "h": "ONE SALE", "u": "Most people skip this"},
+  {"s": "1", "b": "Write down your price", "h": "FOR ONE SALE"},
+  {"s": "2", "b": "Take off materials, fuel,", "h": "DATA AND FEES"},
+  {"s": "3", "b": "What is left is your pay.", "h": "COUNT YOUR HOURS"},
+  {"s": "Your turn", "b": "What does one sale", "h": "LEAVE YOU?", "u": "Comment your question below"}],
+  "caption": "A sale is not profit. Before you launch, do the maths on one sale.\n\nWrite down the price, take off the direct costs like materials, fuel, data and fees, then see what is left for your time. Divide by the hours it takes. That is your real hourly pay.\n\nComment your question below and let us help.\n\n#smallbusinessSA #entrepreneurSA #sidehustleSA #startupSA"},
+ "carousel": {"photo": "woman paying card cafe counter", "slides": [
+  {"kind": "cover", "small": "Business money, sorted", "big": "STOP MIXING", "hl": "YOUR MONEY", "sub": "A simple 5 step system. Swipe."},
+  {"n": 1, "tag": "Money system", "title": "Separate account", "head": "Business money in one place.", "body": "Ask at least two banks about fees and documents. If you cannot open one yet, use a second account only for the business."},
+  {"n": 2, "tag": "Money system", "title": "Pay yourself", "head": "A fixed amount on a fixed day.", "body": "Act like an employee of your business. The rest stays in the business as a buffer."},
+  {"n": 3, "tag": "Money system", "title": "Use pots", "head": "Operating, tax, buffer, growth.", "body": "Move a share of each payment into tax. Ask an accountant what share is right for you."},
+  {"n": 4, "tag": "Money system", "title": "Keep records", "head": "Photo every receipt and invoice.", "body": "Log date, who, amount and category. Simple enough that you will actually do it."},
+  {"n": 5, "tag": "Money system", "title": "15 minutes a week", "head": "Check what came in and went out.", "body": "Chase unpaid invoices and ask one question: did I make a profit this week?"},
+  {"kind": "cta", "small": "Start this week", "big": "SAVE", "hl": "THIS POST", "sub": "Come back to it on payday."}],
+  "caption": "When business and personal money sit in one pile, you never know if the business is making money.\n\nFive steps: a separate account, a fixed pay day, simple pots for tax and buffer, easy records, and a 15 minute weekly check. Check current tax rules on sars.gov.za or ask an accountant.\n\nSave this.\n\n#smallbusinessSA #entrepreneurSA #startupSA #lekkerhustle"}
+}
