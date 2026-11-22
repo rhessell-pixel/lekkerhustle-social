@@ -36,5 +36,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "friends chatting market stall",
+      "photographer": "Sam Lion",
+      "url": "https://www.pexels.com/photo/cheerful-asian-women-enjoying-coffee-and-chatting-in-outdoors-cafe-5709243/"
+    },
+    {
+      "post": "reel2",
+      "query": "calculator notebook pen desk",
+      "photographer": "AlphaTradeZone",
+      "url": "https://www.pexels.com/photo/person-calculating-white-writing-on-a-notebook-5833259/"
+    },
+    {
+      "post": "carousel",
+      "query": "woman paying card cafe counter",
+      "photographer": "Andrea Piacquadio",
+      "url": "https://www.pexels.com/photo/woman-paying-with-credit-card-3907306/"
+    }
   ]
 }
