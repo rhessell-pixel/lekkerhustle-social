@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "woman scrolling phone contacts",
+      "photographer": "thomas vanhaecht",
+      "url": "https://www.pexels.com/photo/person-using-smartphone-shallow-focus-photography-215367/"
+    },
+    {
+      "post": "reel2",
+      "query": "man typing laptop cafe",
+      "photographer": "Theo  Decker",
+      "url": "https://www.pexels.com/photo/man-sitting-on-chair-while-using-a-laptop-5447409/"
+    },
+    {
+      "post": "carousel",
+      "query": "person using phone map street",
+      "photographer": "Theo  Decker",
+      "url": "https://www.pexels.com/photo/person-wearing-bracelets-holding-black-phone-5448160/"
+    }
   ]
 }
