@@ -1,0 +1,26 @@
+{
+ "reel1": {"photo": "woman scrolling phone contacts", "frames": [
+  {"s": "First customers", "b": "Your first 10 are probably in", "h": "YOUR PHONE", "u": "Not on a billboard"},
+  {"s": "1", "b": "Pick 20 to 30 people who could", "h": "BUY OR REFER YOU"},
+  {"s": "2", "b": "Message each one,", "h": "NOT A BROADCAST"},
+  {"s": "3", "b": "Ask: do you know one person", "h": "WHO NEEDS THIS?"},
+  {"s": "Send this", "b": "To a friend who is", "h": "STARTING OUT", "u": "Follow up once, politely"}],
+  "caption": "Your first ten customers are probably already in your phone.\n\nPick 20 to 30 people who could buy or refer you, send each a personal message with your offer and a photo of your work, and ask if they know one person who needs it. Follow up once, politely.\n\nSend this to a friend who is starting out.\n\n#smallbusinessSA #startupSA #entrepreneurSA #lekkerhustle"},
+ "reel2": {"photo": "man typing laptop cafe", "frames": [
+  {"s": "Bad Google review?", "b": "Do not argue", "h": "IN PUBLIC", "u": "Future customers are reading"},
+  {"s": "1", "b": "Stay calm and", "h": "SAY SORRY FOR THEIR EXPERIENCE"},
+  {"s": "2", "b": "Keep the facts short,", "h": "NO BLAME"},
+  {"s": "3", "b": "Offer to fix it", "h": "OFFLINE", "u": "Please call me on [number]"},
+  {"s": "Save this", "b": "For the day a bad review", "h": "LANDS", "u": "Reply to every review"}],
+  "caption": "A bad review stings. How you reply matters more than the review.\n\nStay calm, apologise for their experience, keep the facts short and offer to put it right offline. Future customers are reading your reply, not just the complaint.\n\nSave this for the day a bad review lands.\n\n#smallbusinessSA #entrepreneurSA #sidehustleSA #lekkerhustle"},
+ "carousel": {"photo": "person using phone map street", "slides": [
+  {"kind": "cover", "small": "Free and takes an afternoon", "big": "GET FOUND", "hl": "ON GOOGLE MAPS", "sub": "Your Google Business Profile in 6 steps. Swipe."},
+  {"n": 1, "tag": "Google Business Profile", "title": "Get ready", "head": "Have your real details at hand.", "body": "Exact business name, address or service area, a phone number you answer, opening hours and at least 5 clear photos."},
+  {"n": 2, "tag": "Google Business Profile", "title": "Claim it", "head": "Search your name on Google Maps first.", "body": "Someone may have listed you already. Claim it, or add your business, then complete the verification Google asks for."},
+  {"n": 3, "tag": "Google Business Profile", "title": "Pick your category", "head": "Choose the one that matches your main service.", "body": "Add extras only for services you really offer. Use your real name, not extra keywords."},
+  {"n": 4, "tag": "Google Business Profile", "title": "Fill every section", "head": "Hours, services, description, service area.", "body": "Two or three plain sentences about what you do and where. Add a WhatsApp or booking link."},
+  {"n": 5, "tag": "Google Business Profile", "title": "Add real photos", "head": "Your work, your van, your team.", "body": "Natural light, no stock photos, and add new ones at least once a month."},
+  {"n": 6, "tag": "Google Business Profile", "title": "Keep it alive", "head": "Ask happy customers for reviews and reply to all.", "body": "Never buy or write your own reviews. Update hours the same day anything changes."},
+  {"kind": "cta", "small": "Free step-by-step guide", "big": "LINK IN", "hl": "BIO", "sub": "Save this for your afternoon off."}],
+  "caption": "When someone searches for a plumber, salon or baker near them, Google shows a map. Your free Google Business Profile is how you get on it.\n\nSix steps: get your details ready, claim it, pick your category, fill every section, add real photos and keep it updated. Swipe through.\n\nLink in bio for the free guide.\n\n#smallbusinessSA #entrepreneurSA #startupSA #lekkerhustle"}
+}
