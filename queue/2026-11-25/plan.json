@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "phone banking app payment",
+      "photographer": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/"
+    },
+    {
+      "post": "reel2",
+      "query": "baker decorating cake kitchen",
+      "photographer": "Do\u011fu Tuncer",
+      "url": "https://www.pexels.com/photo/women-over-cakes-16140003/"
+    },
+    {
+      "post": "carousel",
+      "query": "shelves boxes stock storeroom",
+      "photographer": "Daniel Andraski",
+      "url": "https://www.pexels.com/photo/narrow-walkway-between-metal-shelves-12234109/"
+    }
   ]
 }
