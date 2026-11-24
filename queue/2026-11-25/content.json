@@ -1,0 +1,38 @@
+{
+ "reel1": {
+  "photo": "phone banking app payment",
+  "frames": [
+   {"s": "Got paid?", "b": "A screenshot is not", "h": "PAYMENT", "u": "Check your account, not their phone"},
+   {"s": "1", "b": "Wait until the money shows", "h": "IN YOUR ACCOUNT"},
+   {"s": "2", "b": "Screenshots can be", "h": "EDITED OR MADE UP"},
+   {"s": "3", "b": "Overpaid and asked for a refund?", "h": "BIG RED FLAG"},
+   {"s": "Save this", "b": "Before you hand over", "h": "ANY GOODS", "u": "Money first, goods second"}
+  ],
+  "caption": "A screenshot is not payment.\n\nWait until the money actually shows in your account before you hand over goods or finish the job. Screenshots can be edited, and a buyer who overpays and asks you to refund the difference is a known scam.\n\nSave this before your next sale.\n\n#smallbusinessSA #entrepreneurSA #sidehustleSA #lekkerhustle"
+ },
+ "reel2": {
+  "photo": "baker decorating cake kitchen",
+  "frames": [
+   {"s": "Custom orders", "b": "No deposit, no", "h": "BOOKED DATE", "u": "Do not bake for free"},
+   {"s": "1", "b": "Take a deposit to", "h": "SECURE THE ORDER"},
+   {"s": "2", "b": "Balance paid", "h": "BEFORE DELIVERY"},
+   {"s": "3", "b": "Send a simple receipt", "h": "FOR EACH PAYMENT"},
+   {"s": "Send this", "b": "To a friend who takes", "h": "CUSTOM ORDERS", "u": "Deposits protect your costs"}
+  ],
+  "caption": "No deposit, no booked date.\n\nFor cakes, custom work or any job where you buy materials first, take a deposit to secure the order, get the balance before delivery and send a simple receipt each time. If they cancel, your costs are covered.\n\nSend this to a friend who is starting out.\n\n#smallbusinessSA #startupSA #sidehustleSA #entrepreneurSA"
+ },
+ "carousel": {
+  "photo": "shelves boxes stock storeroom",
+  "slides": [
+   {"kind": "cover", "small": "Cash stuck on a shelf?", "big": "BUY STOCK", "hl": "WITHOUT LOSING CASH", "sub": "6 steps. Swipe."},
+   {"n": 1, "tag": "Stock and cash", "title": "Know what sells", "head": "Look at last month before you buy.", "body": "Sort items into fast sellers, slow sellers and dead stock. Fast sellers get your cash first."},
+   {"n": 2, "tag": "Stock and cash", "title": "Set a stock budget", "head": "Decide how much cash may go into stock.", "body": "Keep separate pots for stock, running costs and your own pay, so stock does not eat the rent money."},
+   {"n": 3, "tag": "Stock and cash", "title": "Buy small, buy often", "head": "A bulk discount only helps if you sell the bulk.", "body": "Saving R2 a unit is a bad deal if your cash sits on the shelf for months."},
+   {"n": 4, "tag": "Stock and cash", "title": "Use deposits", "head": "The safest stock is already sold.", "body": "For items you do not carry, take a deposit first, then buy. Their deposit pays for your stock."},
+   {"n": 5, "tag": "Stock and cash", "title": "Talk to your supplier", "head": "Ask for smaller quantities or swaps.", "body": "Only take credit if you are sure you can pay on the due date."},
+   {"n": 6, "tag": "Stock and cash", "title": "Clear slow stock", "head": "Dead stock is money already spent.", "body": "Bundle it with a fast seller or discount it, then do not reorder it."},
+   {"kind": "cta", "small": "Free step-by-step guide", "big": "KEEP YOUR", "hl": "CASH MOVING", "sub": "Link in bio for the free guide."}
+  ],
+  "caption": "Stock feels like progress, but every rand on a shelf is a rand you cannot use.\n\nBuy what sells, in amounts you can afford, and keep your cash moving. Six steps, swipe through.\n\nLink in bio for the free guide.\n\n#smallbusinessSA #entrepreneurSA #startupSA #lekkerhustle"
+ }
+}
