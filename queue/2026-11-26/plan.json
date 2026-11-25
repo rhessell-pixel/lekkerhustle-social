@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "woman working late laptop",
+      "photographer": "Vitaly Gariev",
+      "url": "https://www.pexels.com/photo/businesswoman-working-late-in-office-on-laptop-36713413/"
+    },
+    {
+      "post": "reel2",
+      "query": "weekly planner pen calendar",
+      "photographer": "cottonbro studio",
+      "url": "https://www.pexels.com/photo/person-writing-on-a-calendar-5124873/"
+    },
+    {
+      "post": "carousel",
+      "query": "craftsman workshop woodworking",
+      "photographer": "HONG SON",
+      "url": "https://www.pexels.com/photo/carpenter-working-with-wood-on-industrial-saw-32357250/"
+    }
   ]
 }
