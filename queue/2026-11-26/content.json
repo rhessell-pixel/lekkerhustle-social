@@ -1,0 +1,27 @@
+{
+ "reel1": {"photo": "woman working late laptop", "frames": [
+  {"s": "Thursday myth", "b": "Always busy, never any money?", "h": "CHECK YOUR PRICE", "u": "Busy is not the same as paid"},
+  {"s": "The myth", "b": "Being busy means the", "h": "BUSINESS IS WORKING"},
+  {"s": "The truth", "b": "Charge too little and you work more hours for", "h": "THE SAME MONEY"},
+  {"s": "Check this", "b": "Which jobs pay you best", "h": "PER HOUR?", "u": "Do more of those"},
+  {"s": "Send this", "b": "To a friend who is always", "h": "BUSY BUT BROKE", "u": "Then look at your prices together"}],
+  "caption": "Always busy but never any money? Busy is not the same as paid.\n\nIf you charge too little, you work more hours for the same income. Look at which jobs pay you best per hour, and do more of those.\n\nSend this to a friend who is starting out.\n\n#smallbusinessSA #entrepreneurSA #sidehustleSA #lekkerhustle"},
+ "reel2": {"photo": "weekly planner pen calendar", "frames": [
+  {"s": "Mistake", "b": "When you get busy, this is the first thing to", "h": "DISAPPEAR", "u": "And it is the thing that fills your diary"},
+  {"s": "The culprit", "b": "Work that brings in", "h": "NEW CUSTOMERS"},
+  {"s": "1", "b": "Give it a fixed slot every day,", "h": "EVEN 30 MINUTES"},
+  {"s": "2", "b": "Follow up on quotes and message", "h": "PAST CUSTOMERS"},
+  {"s": "3", "b": "Ask for a review or", "h": "A REFERRAL"},
+  {"s": "Do it today", "b": "Block 30 minutes in your diary", "h": "SAVE THIS"}],
+  "caption": "When you get busy, the first thing to disappear is the work that finds you new customers. That is why so many businesses go quiet.\n\nGive it a fixed slot every day, even 30 minutes: follow up on quotes, message past customers, ask for reviews and referrals.\n\nSave this.\n\n#smallbusinessSA #entrepreneurSA #startupSA #lekkerhustle"},
+ "carousel": {"photo": "craftsman workshop woodworking", "slides": [
+  {"kind": "cover", "small": "Thursday mindset", "big": "READY TO QUIT", "hl": "YOUR JOB?", "sub": "A calm 6 step check before you decide. Swipe."},
+  {"n": 1, "tag": "Going full time", "title": "Check the demand", "head": "Are you turning work down?", "body": "Do customers come back or refer others? Has income been steady for several months, not just one lucky month?"},
+  {"n": 2, "tag": "Going full time", "title": "Know your numbers", "head": "Living costs minus business profit.", "body": "Add up your real monthly costs. The gap between that and what the business earns is what you must cover."},
+  {"n": 3, "tag": "Going full time", "title": "Build a cushion", "head": "Save for the slow months.", "body": "Decide how many months of costs you want covered before you leave a salary, plus a buffer for the business."},
+  {"n": 4, "tag": "Going full time", "title": "Count what you lose", "head": "Medical aid, retirement, steady pay.", "body": "Work out how you will replace what matters to you, or plan to go without."},
+  {"n": 5, "tag": "Going full time", "title": "Have systems ready", "head": "Quote, invoice, collect, record.", "body": "These matter far more when the business is your only income."},
+  {"n": 6, "tag": "Going full time", "title": "Go gradual, have a plan B", "head": "Cut hours first if you can.", "body": "Decide now what you will do if income drops. It makes the decision less scary."},
+  {"kind": "cta", "small": "Free step by step guide", "big": "LINK IN BIO", "hl": "FOR THE GUIDE", "sub": "Calm decisions beat brave ones."}],
+  "caption": "Leaving a job is a big decision. A calm checklist beats excitement or frustration.\n\nSix steps: check the demand, know your numbers, build a cushion, count what you lose, get your systems ready, and go gradual with a plan B. Read your employment contract before you resign.\n\nLink in bio for the free guide.\n\n#smallbusinessSA #entrepreneurSA #sidehustleSA #startupSA #lekkerhustle"}
+}
