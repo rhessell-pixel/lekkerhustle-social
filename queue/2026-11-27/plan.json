@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "pen notepad phone table",
+      "photographer": "Lukas Blazek",
+      "url": "https://www.pexels.com/photo/two-click-pens-beside-iphone-on-table-296125/"
+    },
+    {
+      "post": "reel2",
+      "query": "magnifying glass desk",
+      "photographer": "Towfiqu barbhuiya",
+      "url": "https://www.pexels.com/photo/magnifier-and-a-quill-pen-on-an-empty-paper-sheet-14438833/"
+    },
+    {
+      "post": "carousel",
+      "query": "phone photographing food window",
+      "photographer": "Rafael Rodrigues",
+      "url": "https://www.pexels.com/photo/close-up-of-a-woman-taking-pictures-of-her-food-with-her-phone-20573519/"
+    }
   ]
 }
