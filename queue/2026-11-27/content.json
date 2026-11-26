@@ -1,0 +1,132 @@
+{
+ "reel1": {
+  "photo": "pen notepad phone table",
+  "frames": [
+   {
+    "s": "Getting found online",
+    "b": "Old number",
+    "h": "STILL ONLINE?",
+    "u": "Check before a customer does"
+   },
+   {
+    "s": "The problem",
+    "b": "Different details make people",
+    "h": "LESS SURE",
+    "u": "Search engines too"
+   },
+   {
+    "s": "Step 1",
+    "b": "Write your name, number and area",
+    "h": "ONCE",
+    "u": "Then copy and paste it everywhere"
+   },
+   {
+    "s": "Step 2",
+    "b": "Check Google, Facebook, WhatsApp and",
+    "h": "YOUR INVOICES",
+    "u": "Your website too"
+   },
+   {
+    "s": "Save this",
+    "b": "Fix your details",
+    "h": "THIS WEEKEND"
+   }
+  ],
+  "caption": "Is your old number still online somewhere?\n\nUse the same business name, phone number and area everywhere: Google, Facebook, WhatsApp Business, your website and your invoices.\n\nSave this and fix yours this weekend.\n\n#smallbusinessSA #entrepreneurSA #startupSA #lekkerhustle"
+ },
+ "reel2": {
+  "photo": "magnifying glass desk",
+  "frames": [
+   {
+    "s": "Friday myth",
+    "b": "\"We guarantee",
+    "h": "NUMBER ONE\"",
+    "u": "On Google? Careful."
+   },
+   {
+    "s": "The truth",
+    "b": "No one can guarantee",
+    "h": "A RANKING"
+   },
+   {
+    "s": "Also skip",
+    "b": "Fake reviews, bought links and",
+    "h": "STUFFED KEYWORDS",
+    "u": "Repeating \"best plumber\" is not a plan"
+   },
+   {
+    "s": "Do this first",
+    "b": "Complete your profile, get real reviews, keep details",
+    "h": "UP TO DATE"
+   },
+   {
+    "s": "Send this",
+    "b": "To an owner who is about to",
+    "h": "PAY FOR PROMISES"
+   }
+  ],
+  "caption": "\"We guarantee you number one on Google.\" Careful.\n\nNo one can guarantee a ranking. Do the basics first, and if you hire help, ask for specific work you can check.\n\nSend this to a business owner you know.\n\n#smallbusinessSA #entrepreneurSA #sidehustleSA #lekkerhustle"
+ },
+ "carousel": {
+  "photo": "phone photographing food window",
+  "slides": [
+   {
+    "kind": "cover",
+    "small": "No fancy camera needed",
+    "big": "YOUR PHOTOS",
+    "hl": "SELL YOUR WORK",
+    "sub": "6 phone photo basics. Swipe."
+   },
+   {
+    "n": 1,
+    "tag": "Better work photos",
+    "title": "Use daylight",
+    "head": "Face a window or step outside.",
+    "body": "Avoid harsh direct sun and skip the flash."
+   },
+   {
+    "n": 2,
+    "tag": "Better work photos",
+    "title": "Wipe the lens",
+    "head": "Your pocket leaves smudges.",
+    "body": "Give it a quick wipe with a soft cloth before you shoot."
+   },
+   {
+    "n": 3,
+    "tag": "Better work photos",
+    "title": "Hold it steady",
+    "head": "Two hands, elbows tucked in.",
+    "body": "Or rest your phone on something solid."
+   },
+   {
+    "n": 4,
+    "tag": "Better work photos",
+    "title": "Clear the background",
+    "head": "Let the work be the star.",
+    "body": "Move clutter, tools and bins out of the frame."
+   },
+   {
+    "n": 5,
+    "tag": "Better work photos",
+    "title": "Keep it level",
+    "head": "Straight lines look neater.",
+    "body": "Switch on the grid in your camera settings."
+   },
+   {
+    "n": 6,
+    "tag": "Better work photos",
+    "title": "Move in close",
+    "head": "Tap the screen to focus.",
+    "body": "Take several shots and keep the best. Ask permission before sharing a customer's face, home or property."
+   },
+   {
+    "kind": "cta",
+    "small": "Before your next job",
+    "big": "SAVE",
+    "hl": "THIS POST",
+    "sub": "Then add your best shots to your Google profile."
+   }
+  ],
+  "caption": "Your photos are often the first proof of your work.\n\nSix basics: daylight, a clean lens, steady hands, a tidy background, level lines and a close, focused shot.\n\nSave this for your next job.\n\n#smallbusinessSA #sidehustleSA #startupSA #lekkerhustle"
+ }
+}
