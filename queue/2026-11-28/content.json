@@ -1,0 +1,146 @@
+{
+ "reel1": {
+  "photo": "alarm clock desk evening",
+  "frames": [
+   {
+    "s": "Side hustle after work?",
+    "b": "Stop trying to",
+    "h": "FIND TIME",
+    "u": "Book it instead"
+   },
+   {
+    "s": "Step 1",
+    "b": "Pick the 3 results that matter",
+    "h": "THIS WEEK",
+    "u": "Like sending two quotes"
+   },
+   {
+    "s": "Step 2",
+    "b": "Block time for those",
+    "h": "FIRST",
+    "u": "Everything else fits around them"
+   },
+   {
+    "s": "Step 3",
+    "b": "Write the first action",
+    "h": "FOR EACH",
+    "u": "So you can start without thinking"
+   },
+   {
+    "s": "Step 4",
+    "b": "Protect your",
+    "h": "REST TOO",
+    "u": "Take a full day off when you can"
+   },
+   {
+    "s": "Save this",
+    "b": "Plan your week",
+    "h": "THIS WEEKEND"
+   }
+  ],
+  "caption": "Side hustle after work? Stop trying to find time and book it.\n\nPick your top three results for the week, block time for them first and write down the first action for each.\n\nSave this for your weekly planning.\n\n#sidehustleSA #smallbusinessSA #entrepreneurSA #lekkerhustle"
+ },
+ "reel2": {
+  "photo": "paint roller wall renovation",
+  "frames": [
+   {
+    "s": "Side hustle mistake",
+    "b": "\"Just one",
+    "h": "more thing?\"",
+    "u": "Careful with that yes"
+   },
+   {
+    "s": "The problem",
+    "b": "Small extras quietly become",
+    "h": "FREE WORK",
+    "u": "Your time and materials still cost money"
+   },
+   {
+    "s": "Before you start",
+    "b": "List what is included and",
+    "h": "WHAT IS NOT",
+    "u": "Put it on the quote"
+   },
+   {
+    "s": "When they ask",
+    "b": "Price the extra",
+    "h": "SEPARATELY",
+    "u": "A friendly price beats a silent grudge"
+   },
+   {
+    "s": "Then",
+    "b": "Agree it in writing",
+    "h": "BEFORE YOU DO IT",
+    "u": "A WhatsApp message they say yes to"
+   },
+   {
+    "s": "Send this",
+    "b": "To a friend who keeps",
+    "h": "WORKING FOR FREE"
+   }
+  ],
+  "caption": "\"Can you just do one more thing?\" is how free work starts.\n\nSay what is included, price extras separately and get a written yes before you do them.\n\nSend this to a friend who is starting out.\n\n#sidehustleSA #startupSA #smallbusinessSA #lekkerhustle"
+ },
+ "carousel": {
+  "photo": "soapy sponge washing car",
+  "slides": [
+   {
+    "kind": "cover",
+    "small": "Saturday side hustle",
+    "big": "START A MOBILE",
+    "hl": "CAR WASH",
+    "sub": "6 steps before your first booking. Swipe."
+   },
+   {
+    "n": 1,
+    "tag": "Mobile car wash",
+    "title": "Keep the menu short",
+    "head": "Start with three options.",
+    "body": "Exterior wash, exterior and interior, and a full detail that you quote after seeing the car."
+   },
+   {
+    "n": 2,
+    "tag": "Mobile car wash",
+    "title": "Sort water first",
+    "head": "Ask before you promise.",
+    "body": "Check your municipality's water rules, and ask about a tap, a plug point and where you may work."
+   },
+   {
+    "n": 3,
+    "tag": "Mobile car wash",
+    "title": "Start with basic kit",
+    "head": "Buy what you can afford.",
+    "body": "Two buckets, car shampoo, clean microfibre cloths, wash mitts, a wheel brush and a vacuum."
+   },
+   {
+    "n": 4,
+    "tag": "Mobile car wash",
+    "title": "Price the whole job",
+    "head": "Time, products and travel.",
+    "body": "Add something for wear on your kit. Charge more for bigger or dirtier cars."
+   },
+   {
+    "n": 5,
+    "tag": "Mobile car wash",
+    "title": "Find regulars",
+    "head": "Go where the cars are.",
+    "body": "Offices, complexes and small fleets, with permission from whoever manages the site."
+   },
+   {
+    "n": 6,
+    "tag": "Mobile car wash",
+    "title": "Check the car first",
+    "head": "Walk around it with the owner.",
+    "body": "Note any scratches or damage and take photos before you start washing."
+   },
+   {
+    "kind": "cta",
+    "small": "Want the full guide?",
+    "big": "LINK",
+    "hl": "IN BIO",
+    "sub": "Free guide on starting a mobile car wash."
+   }
+  ],
+  "caption": "A mobile car wash can start small: it goes to the customer.\n\nSix steps: menu, water, kit, price, regular customers and a damage check.\n\nLink in bio for the free guide.\n\n#sidehustleSA #startupSA #entrepreneurSA #lekkerhustle"
+ }
+}
