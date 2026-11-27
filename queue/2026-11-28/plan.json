@@ -37,5 +37,25 @@
       ],
       "caption": "post3.txt"
     }
+  ],
+  "photos": [
+    {
+      "post": "reel1",
+      "query": "alarm clock desk evening",
+      "photographer": "Suhas Hanjar",
+      "url": "https://www.pexels.com/photo/organized-home-workspace-with-laptop-and-clock-34688828/"
+    },
+    {
+      "post": "reel2",
+      "query": "paint roller wall renovation",
+      "photographer": "Ivan S",
+      "url": "https://www.pexels.com/photo/paint-roller-with-brown-paint-on-a-stepladder-5799054/"
+    },
+    {
+      "post": "carousel",
+      "query": "soapy sponge washing car",
+      "photographer": "kaboompics",
+      "url": "https://www.pexels.com/photo/a-person-washing-a-car-grill-4870699/"
+    }
   ]
 }
